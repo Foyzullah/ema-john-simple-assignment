@@ -1,0 +1,38 @@
+.header img{
+  width: 400px;
+}
+.header{
+  text-align: center;
+}
+nav.navmenu {
+  background-color: #845ec2;
+  padding: 15px 0;
+}
+
+ul.mainmenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.mainmenu li {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  margin: 0 5px;
+}
+
+ul.mainmenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  transition: .3s;
+}
+
+ul.mainmenu li:last-child {
+  border-right: none;
+}
+ul.mainmenu li a:hover{
+  color: #78c4d4;
+}
